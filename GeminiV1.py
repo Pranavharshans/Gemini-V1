@@ -12,7 +12,7 @@ model = genai.GenerativeModel('gemini-pro')
 
 while True:
     user_input = input("Enter a prompt (type 'END GEMINI' to exit): ")
-    
+    # The program wont terminate till the user give "END GEMINI" as input prompt
     if user_input.upper() == 'END GEMINI':
         print("Exiting Gemini...")
         break
